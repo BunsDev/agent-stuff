@@ -4,6 +4,16 @@ All notable changes to agent-stuff are documented here.
 
 ## Unreleased
 
+* Added a `multi-edit` extension that replaces `edit` with support for batched `multi` edits and Codex-style `patch` payloads.
+* Added preflight validation before mutating files for both `multi` edits and `patch` operations in `multi-edit`.
+* Added `/session-breakdown` views for cwd, day-of-week, and time-of-day breakdowns.
+* Added `pi-share` support for `pi.dev` URLs and `#session_id` inputs.
+* Improved day rendering in `/session-breakdown`.
+* Fixed PDF handling in the `summarize` skill.
+* Hardened `uv` command handling by blocking pip/poetry bypasses.
+* Fixed `web-browser` startup behavior to avoid killing user Chrome instances.
+* Updated README extension docs to include `pi-extensions/multi-edit.ts`.
+
 ## 1.4.0
 
 * Added a prompt editor extension for managing prompt modes (create, rename, delete, and edit), with persistence and detection fixes.

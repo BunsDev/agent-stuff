@@ -38,6 +38,7 @@ Custom extensions for Pi Coding Agent are in [`pi-extensions`](pi-extensions):
 * [`files.ts`](pi-extensions/files.ts) - Unified file browser with git status + session references and reveal/open/edit/diff actions.
 * [`go-to-bed.ts`](pi-extensions/go-to-bed.ts) - Late-night safety guard with explicit confirmation after midnight.
 * [`loop.ts`](pi-extensions/loop.ts) - Prompt loop for rapid iterative coding with optional auto-continue.
+* [`multi-edit.ts`](pi-extensions/multi-edit.ts) - Replaces the built-in `edit` tool with batch `multi` edits and Codex-style `patch` support, including preflight validation.
 * [`notify.ts`](pi-extensions/notify.ts) - Native desktop notifications when the agent finishes.
 * [`prompt-editor.ts`](pi-extensions/prompt-editor.ts) - In-editor prompt mode selector with persistence, history, config, and shortcuts.
 * [`review.ts`](pi-extensions/review.ts) - Code review command (working tree, PR-style diff, commits, custom instructions, optional fix loop).
